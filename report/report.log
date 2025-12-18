@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.12.17)  18 DEC 2025 16:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.12.17)  18 DEC 2025 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -273,30 +273,37 @@ Overfull \hbox (2.39265pt too wide) in paragraph at lines 54--55
  []
 
 
-Overfull \hbox (7.85126pt too wide) in paragraph at lines 70--71
+
+[2]
+Overfull \hbox (7.85126pt too wide) in paragraph at lines 71--72
 []\TU/TimesNewRoman(0)/b/n/14.4 Node.js\TU/TimesNewRoman(0)/m/n/14.4 : For building auxiliary services or testing log-sending
  []
 
 
-
-[2]
-Overfull \hbox (2.42662pt too wide) in paragraph at lines 76--77
+Overfull \hbox (2.42662pt too wide) in paragraph at lines 77--78
 []\TU/TimesNewRoman(0)/b/n/14.4 REST API\TU/TimesNewRoman(0)/m/n/14.4 : Facilitates communication between frontend and
  []
 
 
-Overfull \hbox (1.05766pt too wide) in paragraph at lines 80--81
+Overfull \hbox (1.05766pt too wide) in paragraph at lines 81--82
 []\TU/TimesNewRoman(0)/b/n/14.4 Linux & Windows\TU/TimesNewRoman(0)/m/n/14.4 : Required for development, deployment,
  []
 
 
 
 [3]
+Overfull \hbox (5.44167pt too wide) in paragraph at lines 90--91
+[]\TU/TimesNewRoman(0)/m/n/14.4 Although enterprise-grade SIEM solutions exist, they are often com-
+ []
+
+
+
+[4]
 File: sys-arch.png Graphic file (type bmp)
 <sys-arch.png>
 
 
-[4] (./report.aux)
+[5] (./report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -311,4 +318,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  79i,5n,93p,1195b,226s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (5 pages, 55716 bytes).
+Output written on report.xdv (6 pages, 57112 bytes).

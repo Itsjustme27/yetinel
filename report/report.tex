@@ -26,7 +26,7 @@
 \pagenumbering{gobble}
 
 \section*{Acknowledgement}
-We are proud to have completed this project and would like to express our sincere gratitude to Medhavi College and Pokhara University for providing us with the opportunity to showcase our potential and creativity through this project. We are especially thankful to our supervisor, Mr. Sandip Oli, for his continuous guidance, encouragement, and support throughout the project development process.
+We are proud to have completed this project and would like to express our sincere gratitude to Medhavi College and Pokhara University for providing us with the opportunity to showcase our potential and creativity through this project. We are especially thankful to our supervisor, \textbf{Mr. Sandip Oli}, for his continuous guidance, encouragement, and support throughout the project development process.
 
 This project has contributed significantly to our academic and practical growth, challenging us to step beyond our comfort zones and enhance our technical and problem-solving skills. We would also like to acknowledge our teammates for their collaboration, dedication, and teamwork, which played a crucial role in the successful completion of this project.
 
@@ -59,6 +59,7 @@ In today’s cybersecurity landscape, web applications remain one of the most fr
 
 \end{itemize}
 
+\newpage
 \section{Tools \& Technologies}
 \begin{itemize}
   \item \textbf{Rust}: Used for building the high-performance log ingestion server responsible for receiving, parsing, and forwarding logs.
@@ -82,12 +83,13 @@ In today’s cybersecurity landscape, web applications remain one of the most fr
   \item \textbf{Docker}: For containerized deployment and easier environment setup.
 \end{itemize}
 
-
+\newpage
 \section{Problem Statement}
-Modern organizations generate massive volumes of logs from applications, servers, network devices, and security tools. However, small teams and academic environments often lack an accessible, lightweight, and customizable platform to ingest, analyze, and visualize these logs in a meaningful way. Without centralized log collection and real-time detection capabilities, identifying security incidents, performance issues, or anomalies becomes difficult and inefficient.
+Modern organizations generate massive volumes of logs from applications, servers, network devices, and security tools. However, small teams, academic environments, and independent developers often lack access to affordable and understandable platforms to effectively ingest, analyze, and visualize this data. As a result, security incidents, anomalous behavior, and application-level threats may go unnoticed or be detected too late.
+
+Although enterprise-grade SIEM solutions exist, they are often complex, resource-intensive, and difficult to customize for learning or small-scale use. This project addresses this gap by developing a lightweight, modular SIEM-like system that focuses on core security monitoring capabilities such as centralized log collection, rule-based detection, and real-time visualization through a web-based dashboard.
 
 
-This project aims to solve this limitation by developing a simplified SIEM-like system that can ingest logs, normalize them, detect suspicious patterns, and present the data through an interactive dashboard, enabling efficient monitoring and analysis.
 
 \newpage
 \section{System Architecture Design}
