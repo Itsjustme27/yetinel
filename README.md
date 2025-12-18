@@ -2,4 +2,4 @@
 
 ## System Architecture Design
 
-![Screenshot](sys-arch.png)
+![Screenshot](report/sys-arch.png)
