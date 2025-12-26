@@ -1,7 +1,8 @@
 from pydantic import BaseModel
+from datetime import datetime
 
 class LogEvent(BaseModel):
-    timestamp: str
+    timestamp: datetime 
     source: str
     level: str
     event: str
